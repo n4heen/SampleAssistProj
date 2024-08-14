@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+  nav{
+    background-color: #3f3f46;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+  }
+
+  .nav_link--list{
+      list-style-type: none;
+      display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+  }
+  .nav__link--anchor{
+      text-decoration: none;
+  }
+  .btn {
+background-color: #303049;
+font-size: 32px;
+border: none;
+color: white;
+padding: 16px;
+margin-top: 8px;
+  }
+  
+  .btn:hover {
+    text-decoration: underline;
+    background-color: rgb(18, 18, 19);
+  }
+
+  .checkboxes{
+  display: flex;
+  }
+
+  .group{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 16px;
+
+  }
+
+  .password-display{
+      font-size: 100px;
+  }
+
+  .character-amount-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  
