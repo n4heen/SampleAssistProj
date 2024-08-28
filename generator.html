@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
-    <title>Password Generator</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Password Generator</title>
+</head>
 
 <body>
 
@@ -16,8 +16,46 @@
   <header>
     Password Generator
   </header>
+  <section id="passwordIntro">
+    <div class="header">
+      <p class="header__para">Our online password generator is designed to create strong, random, and unique passwords
+        for your online accounts.
+        With just a few clicks, you can generate passwords that are virtually uncrackable, ensuring your sensitive
+        information stays protected. </p>
 
-  
+      Key Features:
+      <ul>
+        <li>
+          Customizable Options: Choose the length of your password, and include or exclude numbers, symbols, and
+          mixed-case
+          letters according to your security needs.</li>
+
+        Instant Generation: Generate secure passwords in seconds, ready to be copied and used across your accounts.
+        <li>
+          No Data Storage: For your privacy, we do not store any generated passwords, giving you peace of mind that your
+          information remains private.
+        </li>
+        <li>
+          User-Friendly Interface: Simple and intuitive design, making it easy for anyone to create a strong password
+          without hassle.
+        </li>
+        <li>
+          Mobile-Friendly: Accessible on all devices, so you can generate passwords whether you're on a desktop, tablet,
+          or
+          smartphone.
+        </li>
+      </ul>
+      <p class="header__para">
+        Our service is perfect for anyone looking to enhance their online security, from individuals to businesses.
+        Start
+        generating secure passwords today to keep your accounts safe from unauthorized access.</p>
+
+      <a href="#passwordGeneratorForm" class="scroll">
+        <div class="scroll__icon click"> </div>
+      </a>
+    </div>
+  </section>
+
   <form id="passwordGeneratorForm" class="form">
     <h3 class="password-display" id="passwordDisplay">XXXXXXX</h3>
     <div class="character-amount-container">
@@ -41,52 +79,47 @@
     </div>
     <button type="submit" class="btn">Generate</button>
   </form>
-  <a href="#projects" class="scroll">
-    <div class="scroll__icon click"> </div>
-</a>
-<a href="#projects" class="scroll">
-  <div class="scroll__icon click"> </div>
-</a>
+
   <footer>
     <div class="row footer__row">
-        <a href="#" class="footer__anchor">
-            <figure class="footer__logo">
-                <img src="/images/sampleAssistLogo.png" class="footer__logo--image" alt="">
-            </figure>
-            <span class="footer__logo--popper">
-                Top
-                <i class="fas fa-arrow-up">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="/images/sampleAssistLogo.png" class="footer__logo--image" alt="">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up">
 
-                </i>
-            </span>
-        </a>
-        <ul class="nav_link--list">
-            <li class="nav__link">
-                <a href="#" class="nav_link--anchor">Home</a>
-            </li>
-            <li class="nav__link">
-                <a href="#services" class="nav_link--anchor">Compliance</a>
-            </li>
-            <li class="nav__link">
-                <a href="#contact" class="nav_link--anchor">Phishing Emails</a>
-            </li>
-            <li class="nav__link">
-                <a href="#contact" class="nav_link--anchor">Malware</a>
-            </li>
-            <li class="nav__link">
-                <a href="#contact" class="nav_link--anchor">Incident Response</a>
-            </li>
-            <li class="nav__link">
-                <a href="#contact" class="nav_link--anchor">Password Generator</a>
-            </li>
-        </ul>
-        <p>Contact us for furthur info</p>
-        <div class="footer__copyright">
-            Sample Assist &copy; 2024
-        </div>
+          </i>
+        </span>
+      </a>
+      <ul class="nav_link--list">
+        <li class="nav__link">
+          <a href="#" class="nav_link--anchor">Home</a>
+        </li>
+        <li class="nav__link">
+          <a href="#services" class="nav_link--anchor">Compliance</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contact" class="nav_link--anchor">Phishing Emails</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contact" class="nav_link--anchor">Malware</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contact" class="nav_link--anchor">Incident Response</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contact" class="nav_link--anchor">Password Generator</a>
+        </li>
+      </ul>
+      <p>Contact us for furthur info</p>
+      <div class="footer__copyright">
+        Sample Assist &copy; 2024
+      </div>
     </div>
 
-</footer>
+  </footer>
 </body>
 
 </html>
