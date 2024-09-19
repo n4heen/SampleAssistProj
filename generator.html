@@ -1,207 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="script.js" defer></script>
-  <link rel="stylesheet" href="styles.css">
-  <title>Password Generator</title>
+    <title>Password Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-
-  <header>
-    <!-- <nav>
-      <div class="personal-logo"><img src="/images/sampleAssistWhite.svg" alt=""></div>
-      <ul class="nav_link--list">
-          <li class="nav__link">
-              <a href="#" class="nav_link--anchor">Home</a>
-          </li>
-          <li class="nav__link">
-              <a href="compliance.html" class="nav_link--anchor">Compliance</a>
-          </li>
-          <li class="nav__link">
-              <a href="phishing.html" class="nav_link--anchor">Phishing Emails</a>
-          </li>
-          <li class="nav__link">
-              <a href="malware.html" class="nav_link--anchor">Malware</a>
-          </li>
-          <li class="nav__link">
-              <a href="incidentResponse.html" class="nav_link--anchor">Incident Response</a>
-          </li>
-          <li class="nav__link">
-              <a href="generator.html" class="nav_link--anchor">Password Generator</a>
-          </li>
-      </ul>
-  </nav> -->
-    <nav>
-      <figure>
-        <img class="personal-logo" src="/images/sampleAssistLogo.png" alt="NO IMAGE">
-      </figure>
-      <ul class="nav__link--list">
-        <li class="nav__link">
-          <a href="#" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Home</a>
-        </li>
-        <li class="nav__link">
-          <a href="compliance.html" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Compliance</a>
-        </li>
-        <li class="nav__link">
-          <a href="phishing.html" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Phishing Emails</a>
-        </li>
-
-        <li class="nav__link">
-          <a href="malware.html" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Malware</a>
-        </li>
-
-        <li class="nav__link">
-          <a href="incidentResponse.html" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Incident Response</a>
-        </li>
-
-        <li class="nav__link">
-          <a href="#" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            ">Password Generator</a>
-        </li>
-
-        <li class="nav__link click" onclick="toggleContrast()">
-          <a href="#" class="
-            nav__link--anchor
-            link__hover--effect
-            link__hover--effect--black
-            "> <i class="fas fa-adjust"></i></a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section id="passwordIntro">
-    <div class="header">
-      <p class="header__para">Our online password generator is designed to create strong, random, and unique passwords
-        for your online accounts.
-        With just a few clicks, you can generate passwords that are virtually uncrackable, ensuring your sensitive
-        information stays protected. </p>
-
-      Key Features:
-      <ul>
-        <li>
-          Customizable Options: Choose the length of your password, and include or exclude numbers, symbols, and
-          mixed-case
-          letters according to your security needs.</li>
-
-        Instant Generation: Generate secure passwords in seconds, ready to be copied and used across your accounts.
-        <li>
-          No Data Storage: For your privacy, we do not store any generated passwords, giving you peace of mind that your
-          information remains private.
-        </li>
-        <li>
-          User-Friendly Interface: Simple and intuitive design, making it easy for anyone to create a strong password
-          without hassle.
-        </li>
-        <li>
-          Mobile-Friendly: Accessible on all devices, so you can generate passwords whether you're on a desktop, tablet,
-          or
-          smartphone.
-        </li>
-      </ul>
-      <p class="header__para">
-        Our service is perfect for anyone looking to enhance their online security, from individuals to businesses.
-        Start
-        generating secure passwords today to keep your accounts safe from unauthorized access.</p>
-
-      <a href="#passwordGeneratorForm" class="scroll">
-        <div class="scroll__icon click"> </div>
-      </a>
-    </div>
-  </section>
-
-  <form id="passwordGeneratorForm" class="form">
-    <h3 class="password-display" id="passwordDisplay">XXXXXXX</h3>
-    <div class="character-amount-container">
-      <label for="characterAmountNumber">Number Of Characters</label>
-      <input type="range" min="1" max="20" value="10" id="characterAmountRange">
-      <input class="number-input" type="number" min="1" max="20" value="10" id="characterAmountNumber">
-    </div>
-    <div class="checkboxes">
-      <div class="group">
-        <label for="includeUppercase">Uppercase</label>
-        <input type="checkbox" id="includeUppercase">
-      </div>
-      <div class="group">
-        <label for="includeNumbers">Numbers</label>
-        <input type="checkbox" id="includeNumbers">
-      </div>
-      <div class="group">
-        <label for="includeSymbols">Symbols</label>
-        <input type="checkbox" id="includeSymbols">
-      </div>
-    </div>
-    <button type="submit" class="btn">Generate</button>
-  </form>
-
-  <footer>
-    <div class="row footer__row">
-      <a href="#" class="footer__anchor">
-        <figure class="footer__logo">
-          <img src="/images/sampleAssistLogo.png" class="footer__logo--image" alt="">
-        </figure>
-        <span class="footer__logo--popper">
-          Top
-          <i class="fas fa-arrow-up">
-
-          </i>
-        </span>
-      </a>
-      <ul class="nav_link--list">
-        <li class="nav__link">
-          <a href="#" class="nav_link--anchor">Home</a>
-        </li>
-        <li class="nav__link">
-          <a href="#services" class="nav_link--anchor">Compliance</a>
-        </li>
-        <li class="nav__link">
-          <a href="#contact" class="nav_link--anchor">Phishing Emails</a>
-        </li>
-        <li class="nav__link">
-          <a href="#contact" class="nav_link--anchor">Malware</a>
-        </li>
-        <li class="nav__link">
-          <a href="#contact" class="nav_link--anchor">Incident Response</a>
-        </li>
-        <li class="nav__link">
-          <a href="#contact" class="nav_link--anchor">Password Generator</a>
-        </li>
-      </ul>
-      <p>Contact us for furthur info</p>
-      <div class="footer__copyright">
-        Sample Assist &copy; 2024
-      </div>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>Sample</b> Assist</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#" class="w3-bar-item w3-button">Home</a>
+                <a href="compliance.html" class="w3-bar-item w3-button">Compliance</a>
+                <a href="phishing.html" class="w3-bar-item w3-button">Phishing Emails</a>
+                <a href="malware.html" class="w3-bar-item w3-button">Malware</a>
+                <a href="incidentResponse.html" class="w3-bar-item w3-button">Incident Response</a>
+                <a href="generator.html" class="w3-bar-item w3-button">Password Generator</a>
+            </div>
+        </div>
     </div>
 
-  </footer>
+
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="/images/sampleAssistBanner.jpg" alt="Architecture" width="1500" height="800">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Sample</b></span>
+                <span class="w3-hide-small w3-text-light-grey">Assist</span></h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="Introduction">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Password Generator</h3>
+            <form id="passwordGeneratorForm" class="form">
+              <h3 class="password-display" id="passwordDisplay">XXXXXXX</h3>
+              <div class="character-amount-container">
+                <label for="characterAmountNumber">Number Of Characters</label>
+                <input type="range" min="1" max="20" value="10" id="characterAmountRange">
+                <input class="number-input" type="number" min="1" max="20" value="10" id="characterAmountNumber">
+              </div>
+              <div class="checkboxes">
+                <div class="group">
+                  <label for="includeUppercase">Uppercase</label>
+                  <input type="checkbox" id="includeUppercase">
+                </div>
+                <div class="group">
+                  <label for="includeNumbers">Numbers</label>
+                  <input type="checkbox" id="includeNumbers">
+                </div>
+                <div class="group">
+                  <label for="includeSymbols">Characters</label>
+                  <input type="checkbox" id="includeSymbols">
+                </div>
+              </div>
+              <button type="submit" class="btn">Generate</button>
+            </form>
+        </div>
+
+
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p> Sample Assist &copy; 2024</p>
+    </footer>
+
 </body>
 
 </html>

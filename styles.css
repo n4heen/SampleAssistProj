@@ -1619,3 +1619,48 @@ a {
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
+
+form {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: #303049;
+  font-size: 32px;
+  border: none;
+  color: white;
+  padding: 16px;
+  margin-top: 8px;
+    }
+    
+    .btn:hover {
+      text-decoration: underline;
+      background-color: rgb(18, 18, 19);
+    }
+  
+    .checkboxes{
+    display: flex;
+    }
+  
+    .group{
+      display: flex;
+      flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  
+    }
+  
+    .password-display{
+        font-size: 100px;
+    }
+  
+    .character-amount-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 15px;
+    }
