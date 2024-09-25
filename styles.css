@@ -1669,7 +1669,7 @@ a {
     .quizForm{
    display: flex;
    flex-direction: column;
-  margin: 30px;
+  margin: 100px;
     }
     
     .question {
@@ -1685,3 +1685,47 @@ a {
   .fail {
       color: red;
   }
+
+  #quizzes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+
+.quizzes a{
+
+  margin: 50px;
+}
+
+.quiz-link {
+    display: block;
+    text-decoration: none;
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    padding: 15px 25px; /* Padding for buttons */
+    margin: 10px 0; /* Spacing between buttons */
+    border-radius: 5px; /* Rounded corners */
+    width: 80%; /* Width of buttons */
+    text-align: center; /* Center text in buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.quiz-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+@media (min-width: 600px) {
+    .quizzes {
+        flex-direction: row; /* Arrange links in a row on larger screens */
+        justify-content: center; /* Center links horizontally */
+    }
+
+    .quiz-link {
+        width: auto; /* Auto width for larger screens */
+        margin: 0 10px; /* Horizontal margin between buttons */
+    }
+}
+
+ 
