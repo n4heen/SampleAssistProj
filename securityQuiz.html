@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Assist | Security Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/sampleAssistLogo.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="index.html" class="w3-bar-item w3-button"><b>Sample</b> Assist</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="compliance.html" class="w3-bar-item w3-button">Compliance</a>
+                <a href="phishing.html" class="w3-bar-item w3-button">Phishing</a>
+                <a href="malware.html" class="w3-bar-item w3-button">Malware</a>
+                <a href="incidentResponse.html" class="w3-bar-item w3-button">Incident Response</a>
+                <a href="generator.html" class="w3-bar-item w3-button">Password Generator</a>
+            </div>
+        </div>
+    </div>
+
+
+
+  
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-40" id="quiz">
+            <form id="quizForm">
+                <div class="question">
+                    <label>1. A hacker has successfully compromised your system and the malicious program is not able to be identified. What type of malware is in use:</label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>2. A medical device connected network begins to malfunction after an unauthorized program is installed within the system. The program then starts to spread to other devices within the same network without any user interaction. What type of malware is in use:</label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>3. SQL injection is a client side cyber-attack.</label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>4. What does the php term stripslashes() do?</label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>5. What is phishing?</label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <div class="question">
+                    <label>6. Which of the following is a common sign of a phishing email?</label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>7. What should you do if you receive a suspicious email asking for personal information?</label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>8.  Which of the following channels can phishing attempts happen?</label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>9. If a phishing attempt is successful, what can happen?</label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>10. What is whale phishing?</label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <div class="question">
+                    <label>11. Which of the following is a common characteristic of a whale phishing attack?
+                    </label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>12. Why are high-profile individuals targeted in whale phishing attacks?
+                    </label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>13. Which of the following could be a sign of a whale phishing attempt?
+                    </label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>14. What is an effective way to protect against whale phishing attacks?
+                    </label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>15.What distinguishes spear phishing from general phishing attacks?
+                    </label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <div class="question">
+                    <label>16. Which of the following is a common tactic used in spear phishing attacks?
+                    </label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>17. What is often included in a spear phishing email to make it seem legitimate?
+                    </label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>18. How can individuals and organizations protect themselves from spear phishing attacks?</label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>19. What is a common objective of spear phishing attacks?</label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>20. What should lower-level employees do if they identify suspicious events or potential incidents within the system?</label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <div class="question">
+                    <label>21. What actions should team leaders take when they receive a report from lower-level employees about a suspicious event?</label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>22. Why is it important for upper management to regularly review and refine incident response strategies?</label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>23. What are the primary responsibilities of upper management in relation to incident response within Sample Assist?</label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>24. What are the primary responsibilities of upper management in relation to incident response within Sample Assist?</label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>25. Which of the following is not malware?</label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <div class="question">
+                    <label>26. What is the primary distinction between SQL Injection and Cross-Site Scripting (XSS)?</label><br>
+                    <input type="radio" name="q1" value="0"> Berlin<br>
+                    <input type="radio" name="q1" value="1"> Paris<br>
+                    <input type="radio" name="q1" value="0"> Madrid<br>
+                </div>
+        
+                <div class="question">
+                    <label>27.  What is the primary function of ransomware?</label><br>
+                    <input type="radio" name="q2" value="1"> 4<br>
+                    <input type="radio" name="q2" value="0"> 5<br>
+                    <input type="radio" name="q2" value="0"> 3<br>
+                </div>
+        
+                <div class="question">
+                    <label>28. Why is paying the ransom not recommended as a solution to a ransomware attack?</label><br>
+                    <input type="radio" name="q3" value="0"> Charles Dickens<br>
+                    <input type="radio" name="q3" value="1"> William Shakespeare<br>
+                    <input type="radio" name="q3" value="0"> Mark Twain<br>
+                </div>
+        
+                <div class="question">
+                    <label>29. Which of the following is a key strategy to prevent ransomware attacks?</label><br>
+                    <input type="radio" name="q4" value="0"> Earth<br>
+                    <input type="radio" name="q4" value="1"> Jupiter<br>
+                    <input type="radio" name="q4" value="0"> Mars<br>
+                </div>
+        
+                <div class="question">
+                    <label>30. What is the boiling point of water?</label><br>
+                    <input type="radio" name="q5" value="1"> 100°C<br>
+                    <input type="radio" name="q5" value="0"> 90°C<br>
+                    <input type="radio" name="q5" value="0"> 80°C<br>
+                </div>
+                <button type="button" onclick="checkQuiz()">Submit</button>
+            </form>
+            <div id="result" class="result"></div>
+        </div>
+
+
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p> Sample Assist &copy; 2024</p>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

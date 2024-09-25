@@ -1664,3 +1664,23 @@ form {
       flex-direction: column;
       padding-bottom: 15px;
     }
+
+form{
+  
+  max-width: 50%;
+  margin: 30px;
+}
+    
+    .question {
+      margin-bottom: 15px;
+  }
+  .result {
+      font-weight: bold;
+      margin-top: 20px;
+  }
+  .pass {
+      color: green;
+  }
+  .fail {
+      color: red;
+  }
