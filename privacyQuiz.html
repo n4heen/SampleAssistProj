@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Assist | Privacy Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/sampleAssistLogo.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="index.html" class="w3-bar-item w3-button"><b>Sample</b> Assist</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="compliance.html" class="w3-bar-item w3-button">Compliance</a>
+                <a href="phishing.html" class="w3-bar-item w3-button">Phishing</a>
+                <a href="malware.html" class="w3-bar-item w3-button">Malware</a>
+                <a href="incidentResponse.html" class="w3-bar-item w3-button">Incident Response</a>
+                <a href="generator.html" class="w3-bar-item w3-button">Password Generator</a>
+            </div>
+        </div>
+    </div>
+
+
+
+  
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-40" id="quiz">
+            <form id="quizForm" class="quizForm">
+                <div class="question">
+                    <label>1. What is personal data?</label><br>
+                    <input type="radio" name="q1" value="0"> A) Information that cannot identify an individual<br>
+                    <input type="radio" name="q1" value="1"> B) Information that can identify an individual<br>
+                    <input type="radio" name="q1" value="0"> C) Data stored in the cloud<br>
+                    <input type="radio" name="q1" value="0"> D) Public information<br>
+                </div>
+            
+                <div class="question">
+                    <label>2. Which regulation is designed to protect personal data in the European Union?</label><br>
+                    <input type="radio" name="q2" value="0"> A) HIPAA<br>
+                    <input type="radio" name="q2" value="1"> B) GDPR<br>
+                    <input type="radio" name="q2" value="0"> C) CCPA<br>
+                    <input type="radio" name="q2" value="0"> D) FERPA<br>
+                </div>
+            
+                <div class="question">
+                    <label>3. What does GDPR stand for?</label><br>
+                    <input type="radio" name="q3" value="1"> A) General Data Protection Regulation<br>
+                    <input type="radio" name="q3" value="0"> B) Global Data Privacy Regulation<br>
+                    <input type="radio" name="q3" value="0"> C) General Data Privacy Rights<br>
+                    <input type="radio" name="q3" value="0"> D) Government Data Protection Regulation<br>
+                </div>
+            
+                <div class="question">
+                    <label>4. What is data minimization?</label><br>
+                    <input type="radio" name="q4" value="0"> A) Collecting as much data as possible<br>
+                    <input type="radio" name="q4" value="1"> B) Limiting data collection to what is necessary<br>
+                    <input type="radio" name="q4" value="0"> C) Storing data indefinitely<br>
+                    <input type="radio" name="q4" value="0"> D) Analyzing all collected data<br>
+                </div>
+            
+                <div class="question">
+                    <label>5. Which of the following is a right granted under GDPR?</label><br>
+                    <input type="radio" name="q5" value="1"> A) Right to be forgotten<br>
+                    <input type="radio" name="q5" value="0"> B) Right to unlimited data collection<br>
+                    <input type="radio" name="q5" value="0"> C) Right to public data access<br>
+                    <input type="radio" name="q5" value="0"> D) Right to sell personal data<br>
+                </div>
+            
+                <div class="question">
+                    <label>6. What does PII stand for?</label><br>
+                    <input type="radio" name="q6" value="0"> A) Publicly Identifiable Information<br>
+                    <input type="radio" name="q6" value="1"> B) Personally Identifiable Information<br>
+                    <input type="radio" name="q6" value="0"> C) Private Internal Information<br>
+                    <input type="radio" name="q6" value="0"> D) Protected Individual Information<br>
+                </div>
+            
+                <div class="question">
+                    <label>7. What is a privacy policy?</label><br>
+                    <input type="radio" name="q7" value="1"> A) A legal document explaining data collection practices<br>
+                    <input type="radio" name="q7" value="0"> B) A list of company employees<br>
+                    <input type="radio" name="q7" value="0"> C) An advertisement for services<br>
+                    <input type="radio" name="q7" value="0"> D) A customer feedback form<br>
+                </div>
+            
+                <div class="question">
+                    <label>8. Which of the following is a common privacy violation?</label><br>
+                    <input type="radio" name="q8" value="0"> A) Collecting user consent<br>
+                    <input type="radio" name="q8" value="1"> B) Sharing data without consent<br>
+                    <input type="radio" name="q8" value="0"> C) Encrypting personal data<br>
+                    <input type="radio" name="q8" value="0"> D) Implementing security measures<br>
+                </div>
+            
+                <div class="question">
+                    <label>9. What is a data breach?</label><br>
+                    <input type="radio" name="q9" value="0"> A) A loss of data integrity<br>
+                    <input type="radio" name="q9" value="1"> B) Unauthorized access to personal data<br>
+                    <input type="radio" name="q9" value="0"> C) Data that is properly secured<br>
+                    <input type="radio" name="q9" value="0"> D) Data transferred legally<br>
+                </div>
+            
+                <div class="question">
+                    <label>10. Which entity is responsible for enforcing GDPR compliance?</label><br>
+                    <input type="radio" name="q10" value="0"> A) Individual companies<br>
+                    <input type="radio" name="q10" value="1"> B) Data Protection Authorities (DPAs)<br>
+                    <input type="radio" name="q10" value="0"> C) Global corporations<br>
+                    <input type="radio" name="q10" value="0"> D) The public<br>
+                </div>
+            
+                <!-- Add remaining privacy questions here following the same structure -->
+            
+                <button type="button" onclick="checkQuiz()">Submit</button>
+            </form>
+            
+            
+            
+            <div id="result" class="result"></div>
+        </div>
+
+
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p> Sample Assist &copy; 2024</p>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

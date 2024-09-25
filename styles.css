@@ -1620,7 +1620,7 @@ a {
   border-color: #e7ffff !important;
 }
 
-form {
+.passwordform {
   min-height: 80vh;
   display: flex;
   justify-content: center;
@@ -1665,14 +1665,15 @@ form {
       padding-bottom: 15px;
     }
 
-form{
-  
-  max-width: 50%;
+
+    .quizForm{
+   display: flex;
+   flex-direction: column;
   margin: 30px;
-}
+    }
     
     .question {
-      margin-bottom: 15px;
+      margin-top: 30px;
   }
   .result {
       font-weight: bold;
