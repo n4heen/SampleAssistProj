@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -8,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="/images/sampleAssistLogo.jpeg">
     <link rel="stylesheet" href="styles.css">
 </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 <body>
 
@@ -38,8 +40,8 @@
         <!-- About Section -->
         <div class="w3-container w3-padding-40" id="quiz">
             <form id="quizForm" class="quizForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" value="Name">
+                <label for="name" >Name:</label>
+                <input type="text" id="name" name="name" value="" placeholder="Name">
 
                 <div class="question">
                     <label>1. A hacker has successfully compromised your system and the malicious program is not able to
@@ -296,6 +298,7 @@
                 <button type="button" onclick="checkQuiz()">Submit Quiz</button>
             </form>
             <div id="result" class="result"></div>
+            <div id="certificateDownload"></div> 
         </div>
 
     </div>
