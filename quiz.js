@@ -20,7 +20,7 @@ function checkQuiz() {
     if (percentage >= 80) {
         result.innerHTML = `You passed! Your score is ${percentage}%`;
         result.className = 'result pass';
-        generateCertificate(userName,score);
+        generateCertificate(userName);
         
     } else {
         result.innerHTML = `You failed. Your score is ${percentage}%. Try again.`;
@@ -38,7 +38,6 @@ function generateCertificate(name, score) {
     doc.setFontSize(16);
     doc.text(`This is to certify that ${name}`, 105, 60, null, null, 'center');
     doc.text(`has successfully completed the Quiz`, 105, 70, null, null, 'center');
-    doc.text(`with a score of ${score}%`, 105, 80, null, null, 'center');
 
     // Display download button
     const downloadLink = document.createElement('a');
